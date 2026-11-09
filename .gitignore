@@ -1,0 +1,39 @@
+/# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Full local catalog backup and generated data
+/products.full.json
+/package-lock.json
+*.parquet
+*.csv
+
+# Model and tool caches
+.cache/
+.huggingface/
+.sentence_transformers/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+.idea/
