@@ -1,4 +1,4 @@
-# Crave Retail Shopping Assistant
+# Retail Shopping Assistant
 
 A chat UI for searching the Amazon Fashion product catalog.
 
